@@ -44,7 +44,7 @@ class miniAudicle;
 @interface miniAudicleDocument : NSDocument <NSToolbarDelegate, mADocumentExporterDelegate>
 {
     mADocumentViewController * _viewController;
-    mAMultiDocWindowController * _windowController;
+    __weak mAMultiDocWindowController * _windowController;
     
     NSString * data;
     
