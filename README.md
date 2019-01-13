@@ -1,6 +1,9 @@
 # miniAudicle [![Build Status](https://travis-ci.org/ccrma/miniAudicle.svg?branch=master)](https://travis-ci.org/ccrma/miniAudicle)
 ## integrated development + performance environment for chuck
 
+I forked this only to fix some complication issues with OS X Mojave.
+Mainly that the target OS was sometimes below, which is no longer allowed (<10.6)
+
 See http://audicle.cs.princeton.edu/mini/ for more info!
 
 *OPTIONAL*: You'll need an extra file with a secret key if you want dSYMs (debug symbols files) to be auto-uploaded to Crittercism following each build. This is highly recommended for whoever is making the builds that will be distributed publicly as stack traces will be much more useful with debug symbols. 
