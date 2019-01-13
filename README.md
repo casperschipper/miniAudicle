@@ -1,8 +1,8 @@
 # miniAudicle [![Build Status](https://travis-ci.org/ccrma/miniAudicle.svg?branch=master)](https://travis-ci.org/ccrma/miniAudicle)
 ## integrated development + performance environment for chuck
 
-I forked this only to fix some complication issues with OS X Mojave.
-Mainly that the target OS was sometimes below, which is no longer allowed (<10.6)
+Compiling latest official verison of Mini-Audicle in OS X Mojave caused a bunch of errors.
+Main problem was a bunch of xib files with a very old target, which is no longer allowed (minimum = 10.6)
 
 See http://audicle.cs.princeton.edu/mini/ for more info!
 
